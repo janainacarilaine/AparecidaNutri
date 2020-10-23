@@ -51,12 +51,10 @@ function validaPeso(peso){
         return false;
 }
 
-
 function calculaImc(peso,altura){
     imc = peso / (altura * altura);
     return imc.toFixed(2);
 }
 
- 
  
  
